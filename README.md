@@ -1,2 +1,2 @@
-# Wykalaczki-i-Laczki
-Wykałaczki i Laczki game.
+# Laczki i Wykałaczki
+Laczki i Wykałaczki game 2020.
