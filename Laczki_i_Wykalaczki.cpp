@@ -36,18 +36,28 @@ int main(){
 
     bot.Attack(&bot5);
     bot.Stats();
-    //system("cls");
     bot5.Stats();
-	*/
-//////
-    int opt;
-    Character* player = Create_character();
-    //dev:
     //player->money += 10000;
     //player->Level_up();
     //player->curr_hp--;
+	*/
+//////
+    for(int i = 0; i < 25; i++) cout << "~";
+    Sleep(1000);
+    cout << endl << setw(9) << "Laczki\n";
+    Sleep(1000);
+    cout << setw(12) << "i\n";
+    Sleep(1000);
+    cout << setw(25) << "Wykalaczki\n";
+    Sleep(1000);
+    for(int i = 0; i < 25; i++) cout << "~";
+    Sleep(3000);
 
-    //
+    system("cls");
+
+    int opt;
+    Character* player = Create_character();
+
 
     do{
         opt = -1;
@@ -78,14 +88,14 @@ int main(){
             player -> Stats();
             break;
         case 0:
-            cout << "Game over!\n";
+            cout << endl << setw(25) << "Game over!\n";
             return 0;
         default:
             opt = -1;
             break;
         }
         cout << endl;
-//        system("pause");
+//       system("pause");
     }
     while(opt != 0);
     return 0;

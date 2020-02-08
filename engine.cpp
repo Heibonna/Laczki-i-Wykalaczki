@@ -613,7 +613,8 @@ void City::Arena(Character* player) {
             player -> money = 0;
         }
         else{
-            cout << "You are dying in battle. You achieved level " << player -> lvl << ".\n\nGame over.\n";
+            cout << "You are dying in battle. You achieved level " << player -> lvl << ".\n";
+            cout << endl << setw(25) << "Game over!";
             exit(0);
         }
 	}
@@ -757,10 +758,10 @@ Character* Create_character() {
 	string klass;
     Character* player = PLAYER;
 
-	cout << "\nOh hi! What's your name? ";
+	cout << "\n'Oh hi! What's your name?' ";
 	cin >> Name;
 	cout << "'Nice to meet you!'\n";
-	cout << "'What's your specialization?' [available: Warrior, Paladin, Assassin, Shielder] ";// Arr (Pet Master)
+	cout << "'What's your specialization?' \n[available: Warrior, Paladin, Assassin, Shielder]\n";// Arr (Pet Master)
 
 	do {
 		cin >> klass;
