@@ -1,3 +1,5 @@
+/* Mateusz Murawski 2020 All rights reserved */
+
 #pragma once
 #include <iostream>
 #include <stdlib.h>
@@ -10,7 +12,6 @@
 #include <cmath>
 #include <windows.h>
 #include <conio.h>
-
 using namespace std;
 
 /*
@@ -20,6 +21,7 @@ int dmg = -1, def = -1,
 ehh idk
 }
 */
+
 string WEAPONS[6] = { "Fist", "Axe", "Long Sword", "Dagger", "Sword&Shield", "Sword" };
 string ARMORS[6] = { "Rags", "Scales", "Cuirasses", "Jacket", "Plate", "Robs" };
 string MODS[5] = { "Weak ", "Tolerable " ,"Common ", "Elite ", "Legendary "};

@@ -1,3 +1,5 @@
+/* Mateusz Murawski 2020 All rights reserved */
+
 #pragma once
 #include "engine.hpp"
 
@@ -797,3 +799,21 @@ Character* Create_character() {
 
 	return player;
 }
+/*
+template <char t> Pet<t>::Pet(string nm, string spcs, int lvl){
+this -> name = nm;
+this -> species = spcs;
+this -> level = lvl;
+}
+
+template <char t> void Pet<t>::pet_skill(t){
+switch(t){
+case 'o':
+return;
+case 'd':
+return;
+case 'h':
+return;
+}
+}
+*/
