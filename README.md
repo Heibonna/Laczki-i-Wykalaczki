@@ -1,2 +1,2 @@
 # Laczki i Wykałaczki
-Laczki i Wykałaczki game 2020.
+"Laczki i Wykałaczki" is WIP text rpg game. Fight on Arena as young gladiator, upgrade your skills and equipment.
