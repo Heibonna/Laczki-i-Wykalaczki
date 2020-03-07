@@ -4,6 +4,9 @@
 
 #ifndef LIN_CHARACTER_H
 #define LIN_CHARACTER_H
+//
+// Created by Mateusz Murawski on 06.03.2020.
+//
 
 #include <iostream>
 #include <cstdlib>

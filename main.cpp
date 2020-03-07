@@ -1,3 +1,7 @@
+//
+// Created by Mateusz Murawski on 06.03.2020.
+//
+
 #ifdef WIN32
     #include <windows.h>
     #include <conio.h>
@@ -133,7 +137,6 @@ int main(){
     int opt;
 
     Character* player = Create_character();
-
 
     do{
         opt = -1;

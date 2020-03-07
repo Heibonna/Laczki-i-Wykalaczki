@@ -1,5 +1,5 @@
 //
-// Created by heibonna on 06.03.2020.
+// Created by Mateusz Murawski on 06.03.2020.
 //
 #include "Character.h"
 
